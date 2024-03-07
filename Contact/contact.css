@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(24, 23, 23);
+    color: white;
+  }
+  nav {
+    text-align: right;
+    padding-top: 20px;
+    background-color: rgb(24, 23, 2);
+    height: 50px;       
+  }
+
+nav a {
+    text-decoration-line: none;
+    margin: 60px;
+    color: white;
+    
+    
+  }
+
+#Slinks  {
+    text-align: center;
+    font-size: larger;
+    font-size: 32px;
+    margin-bottom: 50px;
+    /* margin-left: auto; */
+    /* margin-right : auto; */
+    color: white;
+  }
+
+  #form{
+    
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 30px solid rgb(255, 255, 255);
+
+  }
+  
+  #Name{
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 200px;
+    height: 18px;
+    border-radius: 10px;
+    
+  }
+  
+
+  #Email{
+    margin-left: 11px;
+    margin-top: 13px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #textArea{
+    margin-left: 90px;
+    width: 200px;
+    border-radius: 5;
+
+  }
+
+  button{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    width: 60px;
+    height: 35px;
+    border-radius: 15px;
+
+  }

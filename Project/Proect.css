@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(24, 23, 23);
+  color: white;
+}
+
+nav {
+    text-align: right;
+    padding-top: 20px;
+    background-color: rgb(24, 23, 2);
+    height: 50px;       
+  }
+
+nav a {
+    text-decoration-line: none;
+    margin: 60px;
+    color: white;
+    
+    
+  }
