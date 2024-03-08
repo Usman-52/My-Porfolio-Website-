@@ -4,6 +4,8 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-evenly;
     text-align: right;
     padding-top: 20px;
     background-color: rgb(24, 23, 2);
@@ -12,7 +14,7 @@ nav {
 
 nav a {
     text-decoration-line: none;
-    margin: 60px;
+    /* margin: 60px; */
     color: white;
     
     
@@ -45,9 +47,3 @@ nav a {
         text-align: center;
         margin-left: 22%;
       }
-
-      tfoot {
-        background-color: rgb(5, 238, 40);
-        color: rgb(16, 17, 17);
-        font-size: large;
-      

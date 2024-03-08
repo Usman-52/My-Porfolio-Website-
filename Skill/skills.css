@@ -4,6 +4,8 @@ body {
   color: white;
 }
 nav {
+    display: flex;
+    justify-content: space-evenly;
     text-align: right;
     padding-top: 20px;
     background-color: rgb(24, 23, 2);
@@ -12,7 +14,7 @@ nav {
 
 nav a {
     text-decoration-line: none;
-    margin: 60px;
+    /* margin: 60px; */
     color: white;
     
     
