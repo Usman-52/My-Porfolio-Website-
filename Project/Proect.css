@@ -7,9 +7,9 @@ nav {
     display: flex;
     justify-content: space-evenly;
     text-align: right;
-    padding-top: 20px;
+    padding-top: px;
     background-color: rgb(24, 23, 2);
-    height: 50px;       
+    height: 20px;       
   }
 
 nav a {
