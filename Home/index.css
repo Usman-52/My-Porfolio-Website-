@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(12, 11, 11);
+    background-color: rgb(12,11,11);
     color: white;
   }
 
@@ -27,13 +27,13 @@ nav a {
     border-radius:50px rgb(12,11,11);
     margin-top: 5% ;
   }
-  audio{
+  /* audio{
    display: inline;
   position: relative;
   width: 130PX;
   height: 40px;
   margin-top: 30%;
-  }  
+  }   */
  button{
   width: 100px;
   height: 100px;
@@ -47,3 +47,16 @@ nav a {
   padding-left: 150px;
   font-size: 40px;
  }
+
+ #intro > p{
+  font-size: 40px;
+ }
+
+ #intro > img{
+  
+  display: inline;
+  width: 40px;
+}
+
+ 
+

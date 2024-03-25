@@ -12,7 +12,7 @@ body {
     flex-direction: row;     
   }
 
-nav a {
+nav > a {
     text-decoration-line: none;
     /* margin: 60px; */
     color: white;
@@ -21,7 +21,7 @@ nav a {
   }
 
    nav a ::hover {
-    text-shadow:  greenyellow ;
+    text-shadow:  #00FF00 ;
     background-color: green;
   } 
 
