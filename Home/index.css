@@ -22,10 +22,10 @@ nav a {
   img {
     display: inline;
     margin-left: 60%  ;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    /* height: 500px; */
     border-radius:50px rgb(12,11,11);
-    margin-top: 150px ;
+    margin-top: 5% ;
   }
   audio{
    display: inline;

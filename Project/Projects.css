@@ -15,11 +15,22 @@ nav {
 nav a {
     text-decoration-line: none;
     /* margin: 60px; */
-    color: white;
-    
+    color: white;  
+  }
+
+  .video > video {
+    position: relative;
+    display: inline;
+    width: 600px;
+    margin-left: 33%; 
     
   }
 
-  .sp{
-    width: 400px;
+  .video > p{
+    
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    
+    
   }
