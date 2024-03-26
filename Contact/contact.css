@@ -25,7 +25,7 @@ nav > a {
     background-color: green;
   } 
 
-#Slinks  {
+#Slinks {
     text-align: center;
     font-size: larger;
     font-size: 32px;
@@ -35,62 +35,29 @@ nav > a {
     color: white;
   }
 
-  #form{
-    
-    margin-top: 70px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(28, 28, 28);
-    color: white;
-    border-radius: 30px solid rgb(255, 255, 255);
+form {
+width: 600px;
+height: 800pxpx;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+padding-bottom: 2%;
+}  
 
-  }
-  
-  #Name{
-    margin-left: 45px;
-    margin-top: 10px;
-    width: 200px;
-    height: 18px;
-    border-radius: 10px;
-    
-  }
-  
+.inputs{
+  padding-left: 15%;
+  padding-top: 10%;
+}
 
-  #Email{
-    margin-left: 11px;
-    margin-top: 10px;
-    width: 200px;
-    border-radius: 10px;
-    height: 18px;
-  }
+.inputs >input{
+  width: 300px;
+  height: 55px;
+  border-radius: 40px;
+  text-size-adjust: ;
+}
 
-  #textArea{
-    display: inline;
-    margin-left: 90px;
-    width: 200px;
-    border-radius: 5;
-    
-
-  }
-
-  button{
-    /* display: inline; */
-    /* margin-left: 50px; */
-    margin-top: 20px;
-    background-color: red;
-    color: white;
-    width: 75px;
-    height: 35px;
-    border-radius: 15px;
-    margin-bottom: 50px;
-
-  }
-
-  button :hover{
-    cursor: pointer;
-    background-color: greenyellow;
-    color: white;
-  }
+.inputs > label{
+  font-size: 30px;
+  /* margin-top: 30%; */
+}

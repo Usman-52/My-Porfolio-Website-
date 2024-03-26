@@ -3,14 +3,27 @@ body {
     color: white;
   }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: right;
-    padding-top: 20px;
-    background-color: rgb(24, 23, 2);
-    height: 50px;       
+  .right-aligned {
+    float: right; /* Move the navigation bar to the right */
+    margin-right: 20px; /* Add space on the right side */
   }
+  
+  .right-aligned a {
+    display: inline-block; /* Make navigation links behave like buttons */
+    height: 20px;
+    padding-top: 20px;
+    padding: 10px 15px; /* Add padding for spacing between links */
+    margin: 0 5px; /* Add some margin between links */
+    background-color: #f1f1f1; /* Set background color for links */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color for links */
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+  }
+  
+  .right-aligned a:hover {
+    background-color: #ddd; /* Change background color on hover */
+  }
+  
 
 nav a {
     text-decoration-line: none;
