@@ -1,14 +1,8 @@
-// ! This is javaScript code for audio input
-// var audio = new Audio();
+document.addEventListener("DOMContentLoaded",function(){
+    var audio = new Audio("./Audio/untitled.mp3");
+    function playAudio(){
+        audio.play();
+    }
 
-/*function playAudio() {
-    audio.play();
-}
-
-document.getElementById("audio-player").addEventListener("click",playAudio);
-*/
-
-function playAudio(){
-    var audio = document.getElementById("mySound");
-    audio.play();
-}
+    document.getElementById("PlaySound").addEventListener("click",playAudio)
+});

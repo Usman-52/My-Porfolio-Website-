@@ -5,7 +5,7 @@ body {
 
   .right-aligned {
     float: right; /* Move the navigation bar to the right */
-    margin-right: 20px; /* Add space on the right side */
+    margin-right:100px; /* Add space on the right side */
   }
   
   .right-aligned a {
@@ -17,11 +17,20 @@ body {
     background-color: #f1f1f1; /* Set background color for links */
     text-decoration: none; /* Remove underline from links */
     color: black; /* Set text color for links */
-    border-radius: 5px; /* Add rounded corners for a nicer look */
+    margin-left: 30px; /* Add rounded corners for a nicer look */
+    border-radius: 5px;
+
+
+  }
+
+  .right-aligned > h1{
+    position: relative;
+    display: inline;
+    /* margin-right: 50%; */
   }
   
   .right-aligned a:hover {
-    background-color: #ddd; /* Change background color on hover */
+    background-color: #00ffff; /* Change background color on hover */
   }
   
 
@@ -56,19 +65,22 @@ nav a {
  #intro{
   display: inline;
   position: absolute;
-  margin-top: 10%;
+  margin-top: 20%;
   padding-left: 150px;
   font-size: 40px;
  }
 
  #intro > p{
-  font-size: 40px;
+  font-size: 60px;
+  display: inline;
  }
 
  #intro > img{
   
   display: inline;
   width: 40px;
+  margin: 0px;
+  /* padding-right: 20%; */
 }
 
  

@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./Home/index.css">
   <title>Home</title>
+  
 </head>
 <body>
   <header >
     <nav class="right-aligned">
+      <h1>Porfolio</h1>
       <a href="./index.html">Home</a>
       <a href="./Project/Project.html" target="_blank">Projects</a>
       <a href="./Skill/skills.html" target="_blank">Skills</a>
@@ -17,13 +19,12 @@
     </nav>
   </header>
 
-
+              <!-- * intro section -->
   <div id="intro">
 
     <p style="display: inline;">Hello!</p>
-    <audio id="mySound" src="./Audio/untitled.mp3" type="audio/mp3"></audio>
     
-     <img onclick="PlaySound()" width="20" src="./P_Pictures/icon.png" alt="">
+     <img id="PlaySound" onclick="PlaySound()" width="20" src="./P_Pictures/icon.png" alt="Audio Speaker">
     <br>
     <p style="display: inline;">I'm Muhammad Usman</p>
     <br>
@@ -31,7 +32,7 @@
   </div>
   
     <img src="./P_Pictures/My-Profile.PNG" alt="My Profile Picture" >
-      <script src="script.js"></script>
+      <script src="home.js"></script>
     
 </body>
 </html>
