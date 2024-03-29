@@ -1,23 +1,41 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
 body {
-  background-color: rgb(24, 23, 23);
+  background-color: rgb(12, 11, 11);
   color: white;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: right;
-    padding-top: 20px;
-    background-color: rgb(24, 23, 2);
-    height: 50px;       
-  }
 
-nav a {
-    text-decoration-line: none;
-    /* margin: 60px; */
-    color: white;  
-  }
+.right-aligned {
+  float: right; /* Move the navigation bar to the right */
+  margin-right:50px; /* Add space on the right side */
+  
+}
 
+.right-aligned a {
+  display: inline-block; /* Make navigation links behave like buttons */
+  height: 20px;
+  padding-top: 20px;
+  padding: 10px 15px; /* Add padding for spacing between links */
+  margin:  30px; /* Add some margin between links */
+  background-color: #f1f1f1; /* Set background color for links */
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set text color for links */
+  margin-left: 30px; /* Add rounded corners for a nicer look */
+  border-radius: 5px;
+
+
+}
+
+.right-aligned > h1{
+  position: relative;
+  display: inline;
+  margin-right: 900px;
+
+}
   .video > video {
     position: relative;
     display: inline;
