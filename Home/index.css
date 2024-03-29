@@ -51,22 +51,9 @@ nav a {
     display: inline;
     margin-left: 60%  ;
     width: 700px;
-    /* height: 500px; */
     border-radius:50px rgb(12,11,11);
     margin-top: 5% ;
   }
-  /* audio{
-   display: inline;
-  position: relative;
-  width: 130PX;
-  height: 40px;
-  margin-top: 30%;
-  }   */
- button{
-  width: 100px;
-  height: 100px;
-  background-color: transparent;
- }
 
  #intro{
   display: inline;
@@ -86,8 +73,23 @@ nav a {
   display: inline;
   width: 40px;
   margin: 0px;
-  /* padding-right: 20%; */
 }
 
+#social{
+  width: 300px;
+  margin-left: 8%;
+  display: inline;
+  position: absolute;
+  margin-top: 29%;
+}
+
+#social > a{
+  display: inline;
+  font-size: 50px;
+  color: white;
+  padding: 1%;
+
+  
+}
  
 
