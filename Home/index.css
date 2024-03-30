@@ -38,21 +38,13 @@ body {
   .right-aligned a:hover {
     background-color: #00ffff; /* Change background color on hover */
   }
-  
 
-nav a {
-    text-decoration-line: none;
-    /* margin: 60px; */
-    color: white;
-    
-    
-  }
   img{
     display: inline;
     margin-left: 60%  ;
     width: 700px;
     border-radius:50px rgb(12,11,11);
-    margin-top: 5% ;
+    
   }
 
  #intro{
@@ -73,6 +65,7 @@ nav a {
   display: inline;
   width: 40px;
   margin: 0px;
+  cursor: pointer;
 }
 
 #social{
